@@ -1,0 +1,12 @@
+# https://github.com/gitbucket/gitbucket/wiki/Configure-from-command-line
+GITBUCKET_HOME=/gitbucket
+GITBUCKET_DB_URL=jdbc:postgresql://localhost/gitbucket
+GITBUCKET_DB_USER=gitbucket
+GITBUCKET_DB_PASSWORD=gitbucket
+#GITBUCKET_BASE_URL=http://example.com:8080
+GITBUCKET_BASE_URL=
+GITBUCKET_WAR_FILE=/opt/gitbucket/gitbucket.war
+GITBUCKET_PORT=8080
+GITBUCKET_JVM_OPTS=-Dmail.smtp.starttls.enable=true
+GITBUCKET_PREFIX=
+GITBUCKET_HOST=0.0.0.0

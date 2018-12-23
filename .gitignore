@@ -1,0 +1,5 @@
+build/
+db/
+data/*
+!data/build.sh
+gitbucket.war

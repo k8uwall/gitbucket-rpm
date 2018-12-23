@@ -1,0 +1,16 @@
+# -*- mode: conf -*-
+
+[Unit]
+Description=GitBucket is the easily installable GitHub clone written with Scala.
+Documentation=https://github.com/gitbucket/gitbucket
+After=network.target
+
+[Service]
+EnvironmentFile=-/etc/sysconfig/gitbucket
+User=gitbucket
+ExecStart=/usr/bin/java -jar $GITBUCKET_WAR_FILE --port=${GITBUCKET_PORT}
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
