@@ -1,5 +1,6 @@
 # gitbucket
-gitbucket rpm
+
+gitbucket official is https://github.com/gitbucket/gitbucket
 
 ## how to build
 
